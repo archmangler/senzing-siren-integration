@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: logstash-config
+  namespace: logstash
+data:
+  QS_ES_HOSTS: "https://elasticsearch.example.com:9200"
